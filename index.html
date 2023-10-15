@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>My Static Project</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to My Static Project</h1>
-    </header>
-    <main>
-      <section class="flex-container">
-        <div class="flex-item">Flex Item 1</div>
-        <div class="flex-item">Flex Item 2</div>
-        <div class="flex-item">Flex Item 3</div>
-      </section>
-      <section class="grid-container">
-        <div class="grid-item">Grid Item 1</div>
-        <div class="grid-item">Grid Item 2</div>
-        <div class="grid-item">Grid Item 3</div>
-      </section>
-    </main>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .image-card {
+            text-align: center;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body class="p-8 bg-slate-300 flex flex-col items-center h-screen">
+    <h2 class="text-5xl text-indigo-600 border-b border-indigo-400 pb-2 mb-5">Galeria d'imatges</h2>
+    <div class="container">
+        <div class="flex">
+            <div class="image-card">
+                <img src="6.png" alt="">
+                <h1 class="text-white bg-indigo-600 p-2">Minesota</h1>
+            </div>
+            <div class="image-card">
+                <img src="5.png" alt="">
+                <h1 class="text-white bg-indigo-600 p-2">Portland</h1>
+            </div>
+            <div class="image-card">
+                <img src="4.png" alt="">
+                <h1 class="text-white bg-indigo-600 p-2">Miami</h1>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="image-card">
+                <img src="3.png" alt="">
+                <h1 class="text-white bg-indigo-600 p-2">Hornets</h1>
+            </div>
+            <div class="image-card">
+                <img src="2.png" alt="">
+                <h1 class="text-white bg-indigo-600 p-2">Toronto</h1>
+            </div>
+            <div class="image-card">
+                <img src="1.png" alt="">
+                <h1 class="text-white bg-indigo-600 p-2">Warriors</h1>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
